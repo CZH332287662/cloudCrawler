@@ -3,7 +3,7 @@ const config = {
   productSelector: '.proovr-collect__card-title',
   fileName: 'tencent_cloud',
   title: '腾讯云国内站',
-  maxConnections: 20,
+  maxConnections: 200,
   isThirdCategory: true,
   getProductListInfo: function ($, el) {
     const productElem = $(el);
@@ -30,6 +30,10 @@ const config = {
     return productInfo;
   },
   getProductDetailInfo: function ($, productInfo) {
+    if (!$) {
+      console.error(`触发防护，请适当增大rateLimit`);
+      process.exit(0);
+    }
     // console.log("title:" + $("title").text());
     productInfo.desc_info = $('.tpm-prod-hero__desc').text();
     const match = productInfo.desc_info.match(/（.*?）/);

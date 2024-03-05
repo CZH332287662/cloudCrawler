@@ -15,17 +15,14 @@ const huawei_cloud_oversea = require('./vendor/huawei/huaweiCloudOversea');
 const aws_cloud = require('./vendor/aws/aws');
 const azure_cloud = require('./vendor/azure/azure');
 const gcp_cloud = require('./vendor/gcp/gcp');
+const bestsms = require('./vendor/sms/bestsms');
+const supercloudsms = require('./vendor/sms/supercloudsms');
+const freereceivesms = require('./vendor/sms/freereceivesms');
 
 const allClouds = {
-  tencent_cloud,
-  tencent_cloud_oversea,
-  ali_cloud,
-  ali_cloud_oversea,
-  huawei_cloud,
-  huawei_cloud_oversea,
-  aws_cloud,
-  azure_cloud,
-  gcp_cloud,
+  freereceivesms,
+  supercloudsms,
+  bestsms
 };
 const allCloudArr = [];
 Object.values(allClouds).forEach((cloudVendor) => {

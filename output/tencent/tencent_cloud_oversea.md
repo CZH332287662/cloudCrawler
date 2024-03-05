@@ -1,11 +1,11 @@
 
 # 腾讯云国际站产品列表
 
-`本文档生成于：2023/6/15 @qiangwu`
+`本文档生成于：2024/3/4 @qiangwu`
 
-`腾讯云国际站一共包含15个大类，151款产品，详情如下`
+`腾讯云国际站一共包含15个大类，163款产品，详情如下`
 
-## 计算和容器(13)
+## 计算和容器(14)
 ### 计算(8)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -25,9 +25,13 @@
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [容器服务](https://www.tencentcloud.com/zh/products/tke)  | Tencent Kubernetes Engine  | TKE | 高可扩展和高性能容器管理服务   | 腾讯云容器服务（Tencent Kubernetes Engine ，TKE）基于原生 kubernetes 提供以容器为核心、高度可扩展的高性能容器管理服务。TKE完全兼容原生 kubernetes API ，扩展了腾讯云的云硬盘（Cloud Block Storage, CBS）、负载均衡 （Cloud Load Balancer, CLB）等kubernetes 插件，为容器化的应用提供高效部署、资源调度、服务发现和动态伸缩等一系列完整功能，解决用户开发、测试及运维过程的环境一致性问题，提高了大规模容器集群管理的便捷性，帮助用户降低成本，提高效率。容器服务提供免费使用，涉及的其他云产品另外单独计费。  |
-|  [弹性容器服务](https://www.tencentcloud.com/zh/products/eks)  | undefined  | undefined | 安全、稳定、弹性、经济的无服务器 Kubernetes 服务   |   |
+|  [Serverless 容器服务](https://www.tencentcloud.com/zh/products/eks)  | undefined  | undefined | 安全、稳定、弹性、经济的无服务器 Kubernetes 服务   |   |
 |  [服务网格](https://www.tencentcloud.com/zh/products/tcm)  | undefined  | undefined | 一致、可靠、透明的云原生应用通信网络管控基础平台   |   |
 |  [容器镜像服务](https://www.tencentcloud.com/zh/products/tcr)  | Tencent Container Registry  | TCR | 安全独享，稳定弹性的容器镜像分发服务   | 容器镜像服务（Tencent Container Registry，TCR）为您提供安全独享、高性能的容器镜像托管分发服务。您可同时在全球多个地域创建独享实例，以实现容器镜像的就近拉取，降低拉取时间，节约带宽成本。TCR 提供细颗粒度的权限管理及访问控制，保障您的数据安全；支持 P2P 加速分发，突破大规模集群并发拉取大镜像的性能瓶颈，助您极速拓展，更新在线业务；支持自定义镜像同步规则及触发器，可与您已有的 CI/CD工作流灵活结合，助您快速实现容器 DevOps。  |
+### 分布式云(1)
+|  产品   |  英文名  | 英文简称 | 概述  | 详情 |
+|  ----  | ----  | ----  | ----  |  ----  |
+|  [专属可用区](https://www.tencentcloud.com/zh/products/cdz)  | Cloud Dedicated Zone  |  | 客户指定部署机房，定制资源独享   | 专属可用区（Cloud Dedicated Zone）为部署在用户指定机房，由用户独享全部资源的可用区。 用户可在专属可用区内购买计算、存储、数据库等高可用资源，并具备与腾讯云常规可用区完全一致的操作体验。专属可用区还为用户提供软硬一体交付和运维服务，助力用户快速搭建安全可靠的专属云。  |
 
 ## 微服务与Serverless(4)
 ### 微服务(1)
@@ -73,7 +77,7 @@
 |  [TDSQL MySQL 版](https://www.tencentcloud.com/zh/products/dcdb)  | TDSQL for MySQL  | TDSQL | 支持自动水平拆分的高性能数据库服务   | TDSQL MySQL版（TDSQL for MySQL，TDSQL）是腾讯打造的一款分布式数据库产品，具备强一致高可用、全球部署架构、分布式水平扩展、高性能、企业级安全等特性，同时提供智能 DBA、自动化运营、监控告警等配套设施，为用户提供完整的分布式数据库解决方案。目前 TDSQL 已经为超过500+的政企和金融机构提供数据库的公有云及私有云服务，客户覆盖银行、保险、证券、互联网金融、计费、第三方支付、物联网、互联网+、政务等领域。TDSQL 亦凭借其高质量的产品及服务，获得了多项国际和国家认证，得到了客户及行业的一致认可。  |
 |  [分析型数据库 TDSQL-A PostgreSQL 版](https://www.tencentcloud.com/zh/products/tdapg)  | TDSQL-A for PostgreSQL  |  | 提供高性能、高扩展、高安全、高性价比的在线实时数仓服务   | TDSQL-A PostgreSQL 版（TDSQL-A for PostgreSQL）是腾讯自主研发的分布式分析型数据库系统，产品采用无共享架构，具有自研高压缩比列式存储引擎和高性能的新一代向量化执行引擎，支持行列混合存储。支持完整的分布式事务 ACID 能力，全面兼容 PostgreSQL，高度兼容 Oracle 语法，支持多级容灾以及高安全能力，为您提供高效的海量数据存储和在线分析处理能力。适用于 GB ~ PB 级的海量 OLAP 场景。  |
 |  [TDSQL-H LibraDB](https://www.tencentcloud.com/zh/products/libradb)  | undefined  | undefined | 稳定高效、开箱即用的HTAP数据库   |   |
-### NoSQL 数据库(6)
+### NoSQL 数据库(7)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [云数据库 Redis](https://www.tencentcloud.com/zh/products/crs)  | TencentDB for Redis  |  | 高性能、低延迟、可伸缩的 Redis 数据库   | 腾讯云数据库 Redis（TencentDB for Redis）是腾讯云打造的兼容 Redis 协议的缓存和存储服务。丰富的数据结构能帮助您完成不同类型的业务场景开发。支持主从热备，提供自动容灾切换、数据备份、故障迁移、实例监控、在线扩容、数据回档等全套的数据库服务。  |
@@ -82,16 +86,16 @@
 |  [云数据库 Tendis](https://www.tencentcloud.com/zh/products/tendis)  | undefined  | undefined | 兼容 Redis 协议、高性能、低成本、大容量的 KV 存储服务   | 云数据库 Tendis 是腾讯云自研、100%兼容 Redis 协议的数据库产品，作为一个高可用、高性能的分布式 KV 存储数据库，从访问时延、持久化需求、整体成本等不同维度的考量，完美的平衡了性能和成本之间的冲突，降低业务运营成本，提升研发效率。云数据库 Tendis 支持主从热备，提供自动容灾切换、数据备份、故障迁移、实例监控、在线扩容、数据回档等全套的数据库服务。  |
 |  [时序数据库 CTSDB](https://www.tencentcloud.com/zh/products/ctsdb)  | TencentDB for CTSDB  |  | 高性能、分布式、弹性扩展的时序数据库   | 腾讯云时序数据库（TencentDB for CTSDB）是一种高效、安全、易用的云上时序数据存储服务。特别适用于物联网、大数据和互联网监控等拥有海量时序数据的场景。您可以根据实际业务需求快速创建CTSDB 实例，并随着业务变化实时线性扩展实例。CTSDB 为您提供高性能的数据读写服务，满足您业务快速发展的需求。使用 CTSDB 不仅可以降低您的数据存储成本也能简化日常运维工作。  |
 |  [图数据库 Graph Database](https://www.tencentcloud.com/zh/products/konisgraph)  | undefined  | undefined | 一站式海量图数据存储、图计算和图可视化分析的数据库服务   |   |
-### 数据库 SaaS 工具(5)
+|  [Tencent Cloud VectorDB](https://www.tencentcloud.com/zh/products/vdb)  | undefined  | undefined | Fully managed, self-developed enterprise-level distributed vector database   | Tencent Cloud VectorDB is a fully managed, self-developed enterprise-level distributed database service designed specifically for storing, retrieving, and analyzing multidimensional vector data. With support for multiple index types and similarity calculation methods, it can perform billion-scale single-index vector searches and sustain millions of QPS with a latency of just milliseconds. In addition to enhancing answer accuracy for large language models (LLMs) by serving as an external knowledge base, Tencent Cloud VectorDB finds extensive applications in AI domains such as recommendation systems and natural language processing (NLP).  |
+### 数据库 SaaS 工具(4)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
-|  [数据传输服务](https://www.tencentcloud.com/zh/products/dts)  | Data Transmission Service  | DTS | 数据无缝传输和迁移，无宕机时间   | 腾讯云数据传输服务（Data Transmission Service，DTS）支持 MySQL、MariaDB、PostgreSQL、Redis、MongoDB 等多种关系型数据库及 NoSQL 数据库迁移，可帮助用户在业务不停服的前提下轻松完成数据库迁移上云，利用实时同步通道轻松构建高可用的数据库容灾架构，通过数据订阅来满足商业数据挖掘、业务异步解耦等场景需求。  |
+|  [数据传输服务](https://www.tencentcloud.com/zh/products/dts)  | Data Transfer Service  | DTS | 数据无缝传输和迁移，无宕机时间   | 腾讯云数据传输服务（ Data Transfer Service，DTS）支持 MySQL、MariaDB、PostgreSQL、Redis、MongoDB 等多种关系型数据库及 NoSQL 数据库迁移，可帮助用户在业务不停服的前提下轻松完成数据库迁移上云，利用实时同步通道轻松构建高可用的数据库容灾架构，通过数据订阅来满足商业数据挖掘、业务异步解耦等场景需求。  |
 |  [数据库专家服务](https://www.tencentcloud.com/zh/products/dbexpert)  | Database Expert Service  | DBexpert | 专业、高效的数据库服务   | 数据库专家服务（Database Expert Service，DBexpert）为您提供专业化的数据库服务。仅需提交您的具体问题和需求，即可获得腾讯云数据库专家的专业支持，助您解决各类专业化问题。腾讯云数据库专家服务团队均有10年以上的 DBA 经验，拥有亿级用户产品的数据库管理经验，以及丰富的服务经验。  |
-|  [腾讯云图数据可视化](https://www.tencentcloud.com/zh/products/tcv)  | undefined  | undefined | 一站式数据可视化展示平台，零门槛打造出专业大屏数据展示   |   |
 |  [数据库智能管家 DBbrain](https://www.tencentcloud.com/zh/products/dbbrain)  | TencentDB for DBbrain  | DBbrain | 数据库性能优化、管理和安全防护云服务   | 数据库智能管家（TencentDB for DBbrain，DBbrain）是腾讯云推出的一款为用户提供数据库性能、安全、管理等功能的智能运维云服务。DBbrain 利用机器学习、大数据手段、专家经验引擎快速复制资深数据库管理员的成熟经验，将大量传统人工的数据库运维工作智能化，服务于云上和云下企业，有效保障数据库服务的安全、稳定及高效运行。  |
 |  [数据库管理](https://www.tencentcloud.com/zh/products/dmc)  | Database Management Center  | DMC | 高效、安全、可靠的数据库一站式管理平台   | 数据库管理（Database Management Center，DMC）是一个高效，安全，可靠的数据库一站式管理平台。DMC 提供可视化的库管理、实例会话管理、SQL 窗口、SQL 安全审计、SQL 变更审批、实时监控、操作审计等数据库管理能力，集成诊断优化和数据可视化分析能力，从而简化和规范数据库管理操作、降低数据库运维门槛、提升运维效率。  |
 
-## 网络与CDN(16)
+## 网络与CDN(17)
 ### 网络(11)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -106,23 +110,23 @@
 |  [Anycast 公网加速](https://www.tencentcloud.com/zh/products/aia)  | Anycast Internet Acceleration  | AIA | 优化访问、简化部署的 IP Anycast 服务   | Anycast 公网加速（Anycast Internet Acceleration，AIA）是一个覆盖全球的动态加速网络，可以大幅提升您业务的公网访问体验。不同于其他应用层加速服务，AIA 能实现 IP 传输的质量优化和多入口就近接入，减少网络传输的抖动、丢包，最终提升云上应用的服务质量，扩大服务范围，精简后端部署。  |
 |  [共享带宽包](https://www.tencentcloud.com/zh/products/bwp)  | Bandwidth Package  | BWP | 多IP聚合的计费模式、降低公网费用   | 共享带宽包（Bandwidth Package，BWP）是一种多IP聚合的计费模式，可大幅降低公网费用 。当业务中公网流量高峰分布在不同时间段内，可通过共享带宽包实现带宽聚合计费，大幅降低公网费用 。共享带宽包提供包月带宽，月 TOP5 消峰计费，月 95 消峰计费等多种计费模式 ，满足您不同业务场景。合理配置共享带宽包可帮您大幅降低公网费用，优化业务成本。  |
 |  [VPN 连接](https://www.tencentcloud.com/zh/products/vpn)  | VPN Connections  |  | 轻松构建 IPsec VPN 服务   | VPN 连接（VPN Connections）是一种基于网络隧道技术，实现本地数据中心与腾讯云上资源连通的传输服务，它能帮您在 Internet 上快速构建一条安全、可靠的加密通道。VPN 连接具有配置简单，云端配置实时生效、可靠性高等特点，其网关可用性达到 99.95%，保证稳定、持续的业务连接，帮您轻松实现异地容灾、混合云部署等复杂业务场景。腾讯云 VPN 连接在国家相关政策法规下提供服务，不提供访问 Internet 功能。  |
-### CDN与加速(5)
+### CDN与边缘平台(6)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
+|  [边缘安全加速平台 EO](https://www.tencentcloud.com/zh/products/teo)  | undefined  | undefined | 基于腾讯全球边缘节点面向境外市场提供L4/L7安全防护和加速服务。   |   |
 |  [内容分发网络](https://www.tencentcloud.com/zh/products/cdn)  | Content Delivery Network  | CDN | 快速、稳定、智能、安全的内容加速服务   | 内容分发网络（Content Delivery Network，CDN）通过将站点内容发布至遍布全球的海量加速节点，使其用户可就近获取所需内容，避免因网络拥堵、跨运营商、跨地域、跨境等因素带来的网络不稳定、访问延迟高等问题，可有效提升下载速度、降低响应时间，提供流畅的用户体验。  |
 |  [全站加速网络](https://www.tencentcloud.com/zh/products/ecdn)  | Enterprise Content Delivery Network  | ECDN | 动静态混合资源加速服务平台   | 全站加速网络（Enterprise Content Delivery Network，ECDN）从原DSA动态加速网络升级而来，通过腾讯在全球部署的节点优势，基于 QQ 平台上累计超过十年的技术实践，为您纯动态网站与动静态混合型网站提供高可靠低延时一站式加速服务体验。ECDN 将静态边缘缓存与动态回源路径优化相融合，结合自研最优链路算法及协议层优化技术，支持智能精准调度、最优路由、全协议接入、可靠容灾、安全传输等能力，一键操作，即刻全站加速，为您的业务保驾护航！  |
 |  [全球应用加速](https://www.tencentcloud.com/zh/products/gaap)  | Global Application Acceleration Platform  | GAAP | 应用加速服务   | 全球应用加速（Global Application Acceleration Platform，GAAP）基于全球部署的节点和线路，通过高速通道、智能路由及安全防护技术，实现数据高速、稳定、安全的跨地域传输，帮助业务解决全球用户访问卡顿或者延迟过高的问题。通过图形化配置界面，只需几分钟，即可通过高速通道访问您的业务源站，并通过控制台查看通道的运行情况。  |
 |  [全球办公访问](https://www.tencentcloud.com/zh/products/goa)  | Global Office Access  | GOA | 实现在任意网络下接入办公环境，安全、稳定、极速地访问企业资源及数据   | 全球办公访问（Global Office Access，GOA）通过终端安全认证与访问控制模块，结合智能路由、多路传输等网络加速技术，为企业搭建“无缝接入、链路高效、终端可靠、访问可控“的办公加速网络， 实现用户在全球任意网络环境中安全、稳定、极速地访问企业数据进行协同办公  |
 |  [安全加速](https://www.tencentcloud.com/zh/products/scdn)  | undefined  | undefined | 多项安全防护能力于一体的内容分发网络   |   |
 
-## 安全(24)
-### 网络安全(4)
+## 安全(23)
+### 网络安全(3)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [DDoS 高防 IP](https://www.tencentcloud.com/zh/products/ddos-advanced)  | Anti-DDoS Advanced  |  | 为云内外业务全面防御大流量 DDoS 攻击   | DDoS 高防 IP（Anti-DDoS Advanced）是针对互联网业务(包括腾讯云业务和非腾讯云业务)遭受大流量 DDoS 攻击导致用户服务不可用的情况而推出的付费防护服务。  |
 |  [DDoS 高防包](https://www.tencentcloud.com/zh/products/ddos-pro)  | Anti-DDoS Pro  |  | 0 变更保障云内业务免受 DDoS 攻击   | DDoS 高防包（Anti-DDoS Pro）是为业务部署在腾讯云上的用户提升 DDoS 防护能力的付费服务。对云产品直接生效，无需更换 IP，购买后只需要绑定需要防护的 IP 即可使用，具备接入便捷、0变更等特点。  |
 |  [云防火墙](https://www.tencentcloud.com/zh/products/cfw)  | undefined  | undefined | 统一管控云端访问控制、安全隔离与业务可视，降低您的运维成本   |   |
-|  [边缘安全加速平台](https://www.tencentcloud.com/zh/products/teo)  | undefined  | undefined | 基于腾讯全球边缘节点面向境外市场提供L4/L7安全防护和加速服务。   |   |
 ### 终端安全(2)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -131,7 +135,7 @@
 ### 数据安全(4)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
-|  [数据安全中心](https://www.tencentcloud.com/zh/products/dsgc)  | undefined  | undefined | 为企业提供云原生的数据安全服务   | 数据安全中心是集敏感数据发现与分类分级、数据地图、异常数据访问分析于一体的数据安全运营平台，帮助企业自动梳理数据资产，对企业云上数据进行分类分级和安全风险评估，并协同腾讯云各安全能力，形成闭合的数据安全防护网，帮助企业最大化提升安全效益。  |
+|  [数据安全治理中心](https://www.tencentcloud.com/zh/products/dsgc)  | undefined  | undefined | 为企业提供云原生的数据安全服务   | 数据安全治理中心是集敏感数据发现与分类分级、数据地图、异常数据访问分析于一体的数据安全运营平台，帮助企业自动梳理数据资产，对企业云上数据进行分类分级和安全风险评估，并协同腾讯云各安全能力，形成闭合的数据安全防护网，帮助企业最大化提升安全效益。  |
 |  [堡垒机](https://www.tencentcloud.com/zh/products/bh)  | undefined  | undefined | 云上资源安全运维网关   |   |
 |  [密钥管理系统](https://www.tencentcloud.com/zh/products/kms)  | Key Management Service  | KMS | 专业保护数据及密钥安全的密钥服务   | 密钥管理系统（Key Management Service，KMS）是一款安全管理类服务，可以让您轻松创建和管理密钥，保护密钥的保密性、完整性和可用性，满足用户多应用多业务的密钥管理需求，符合监管和合规要求。  |
 |  [凭据管理系统](https://www.tencentcloud.com/zh/products/ssm)  | Secrets Manager  | SSM | 易用、稳定、安全的凭据管理服务   | 凭据管理系统（Secrets Manager，SSM）为用户提供凭据的创建、检索、更新、删除等全生命周期的管理服务，结合资源级角色授权轻松实现对敏感凭据的统一管理。针对敏感配置、敏感凭据硬编码带来的泄露风险问题，用户或应用程序通过调用 Secrets Manager API 来检索凭据，有效避免程序硬编码和明文配置等导致的敏感信息泄密以及权限失控带来的业务风险。  |
@@ -152,7 +156,7 @@
 ### 安全管理(1)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
-|  [安全运营中心](https://www.tencentcloud.com/zh/products/soc)  | 原名：态势感知（公有云  |  | 腾讯云原生安全管理平台   | 安全运营中心（原名：态势感知（公有云））是基于客户云端安全数据和腾讯安全大数据的云安全运营平台，通过对海量数据进行多维、智能的持续分析，为用户提供漏洞情报、威胁发现、事件处置、基线合规、及泄漏监测、风险可视等能力，并采取相应的安全措施，保障信息系统安全，帮用户实现全生命周期安全运营。  |
+|  [云安全中心](https://www.tencentcloud.com/zh/products/csc)  | Cloud Security Center  | CSC | 腾讯云原生安全管理平台   | 云安全中心（Cloud Security Center，CSC）是腾讯云一站式安全管理平台，通过资产中心（覆盖30+类型云上资产）、风险中心（一键检测漏洞、配置不当等9大风险）、告警中心（聚合、关联分析日志和处置响应）、高级安全管理（集团账号、多云一站式管理），帮助用户实现事前威胁检测、事中响应处置、事后溯源分析的安全运营闭环，一键搞定安全问题。  |
 ### 应用安全(5)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -171,18 +175,18 @@
 |  [私有域解析 Private DNS](https://www.tencentcloud.com/zh/products/privatedns)  | Virtual Private Cloud  |  | 安全、稳定、高效的私有域名解析服务   | 私有域解析 Private DNS 是基于腾讯云私有网络 VPC （Virtual Private Cloud）环境的私有域名解析管理服务。通过它，您可以在自定义的一个或多个私有网络中快速构建DNS系统，并能够方便地使用私有域名记录来管理 VPC 关联的 CVM、CLB、CDN、COS 等腾讯云自有资源，而这些私有域名在 VPC 之外将无法访问。  |
 |  [移动解析 HTTPDNS](https://www.tencentcloud.com/zh/products/httpdns)  | S  |  | 安全、稳定、高效的移动解析服务，可避免 Local DNS 造成的域名劫持和跨网问题   | 移动解析 HTTPDNS 基于 HTTP（S） 协议向腾讯云的 DNS 服务器发送域名解析请求，替代了基于 DNS 协议向运营商 Local DNS 发起解析请求的传统方式，可以避免 Local DNS 造成的域名劫持和跨网访问问题，解决移动互联网服务中域名解析异常带来的困扰。  |
 |  [DNSPod](https://www.tencentcloud.com/zh/products/dnspod)  | undefined  | undefined | 提供快速、稳定且高可用的 DNS 服务   |   |
-### 企业应用(2)
+### 企业应用(1)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
-|  [智慧会务](https://www.tencentcloud.com/zh/products/tcc)  | undefined  | undefined | 为您提供一站式活动管理方案   |   |
 |  [腾讯微卡](https://www.tencentcloud.com/zh/products/wecard)  | undefined  | undefined | 门禁、访客、食堂、消费、通知、办公等一卡通全场景电子卡   | 腾讯自研电子卡产品，可用于教育、交通、制造业、医疗、园区等场景，解决封闭场景、跨区域集团场景的线下/线上人员精细化管理等问题，支持各类App接入，支持接入各类移动支付，可帮助快速聚合各行业内部服务及办公应用。  |
-### 办公协同(1)
+### 办公协同(2)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [腾讯会议](https://www.tencentcloud.com/zh/products/tvm)  | TVM  |  | 腾讯会议支持在线协作   | 腾讯VooV Meeting （TVM）是一款助力各行各业高效协同沟通的视频会议产品，让用户随时随地快速加入在线视频会议，缩短空间与时间的距离， 让沟通变得更简单，有效，快捷。  |
+|  [腾讯云企业网盘](https://www.tencentcloud.com/zh/products/tced)  | undefined  | undefined | 安全高效的企业协同办公平台   | 腾讯云企业网盘是腾讯云推出的企业级办公协同平台，提供文件管理、用户与权限管理、文档在线协作与共享、数据分发等服务，助力企业提升数据管理效率。  |
 
-## 大数据(5)
-### 数据分析(5)
+## 大数据(6)
+### 数据分析(6)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [弹性 MapReduce](https://www.tencentcloud.com/zh/products/emr)  | EMR  |  | 安全、灵活的云端托管 Hadoop 服务   | 弹性 MapReduce（EMR）结合云技术和 Hadoop、Hive、Spark、Hbase、Presto、Storm 等社区开源技术，提供安全、低成本、高可靠、可弹性伸缩的云端托管 Hadoop 服务。您可以在数分钟内创建安全可靠的专属 Hadoop 集群，以分析位于集群内数据节点或对象存储 COS 上的 PB 级海量数据。  |
@@ -190,8 +194,9 @@
 |  [云数据仓库](https://www.tencentcloud.com/zh/products/cdwch)  | undefined  | undefined | 方便易用的云端托管ClickHouse服务   | 云数据仓库 Cloud Data Warehouse 为您提供方便易用、灵活稳定的云端 ClickHouse 托管服务。只需要几分钟，便可完成海量数据查询数据仓库的搭建，简单轻松地完成对数据的实时查询分析，提升数据价值挖掘的整体效率。  |
 |  [云数据仓库 PostgreSQL](https://www.tencentcloud.com/zh/products/cdwpg)  | 大规模并行处理  |  | 便捷、经济高效的云端数据仓库服务   | 云数据仓库 PostgreSQL 为您提供简单、快速、经济高效的 PB 级云端数据仓库解决方案。云数据仓库兼容 Greenplum 开源数据仓库，是一种基于 MPP（大规模并行处理）架构的数仓服务。  |
 |  [数据湖计算](https://www.tencentcloud.com/zh/products/dlc)  | undefined  | undefined | 新一代云原生敏捷数据湖分析服务   | 无缝融合腾讯云数据生态，可以直接读取云存储服务数据。同时具备良好的跨平台兼容性，支持各类上层数据应用。  |
+|  [流计算](https://www.tencentcloud.com/zh/products/oceanus)  | undefined  | undefined | 云端的流式数据汇聚、计算服务   | 流计算是大数据产品生态体系的实时化分析利器，是基于 Apache Flink 构建的企业级实时大数据分析平台，具备一站开发、无缝连接、亚秒延时、低廉成本、安全稳定等特点。流计算以实现企业数据价值最大化为目标，加速企业实时化数字化的建设进程。  |
 
-## 人工智能(8)
+## 人工智能(10)
 ### 图片识别(1)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -206,10 +211,12 @@
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [语音合成](https://www.tencentcloud.com/zh/products/tts)  | Text To Speech  | TTS | 专业智能高效的语音处理服务   | 语音合成（Text To Speech，TTS）满足将文本转化成拟人化语音的需求，打通人机交互闭环。 提供多场景、多语言的音色选择，支持 SSML 标记语言，支持自定义音量、语速等参数，让发音更专业、更符合场景需求。语音合成广泛适用于智能客服、有声阅读、新闻播报、人机交互等业务场景，提升人机交互体验，提高语音类应用构建效率。  |
 |  [语音识别](https://www.tencentcloud.com/zh/products/asr)  | Automatic Speech Recognition  |  | 提供业界非常具有性价比的语音识别服务，超高识别准确率，适用多场景   | 腾讯云语音识别（Automatic Speech Recognition） 为企业提供极具性价比的语音识别服务。被微信、王者荣耀、腾讯视频等大量内部业务使用，外部落地录音质检、会议实时转写、语音输入法等多个场景。  |
-### 人工智能平台服务(1)
+### 人工智能平台服务(3)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [腾讯云 TI 平台](https://www.tencentcloud.com/zh/products/ti)  | Tencent Cloud TI Platform  |  | AI 工程师打造的一站式机器学习服务平台   | 腾讯云 TI 平台（Tencent Cloud TI Platform）是为 AI 工程师打造的一站式机器学习服务平台，为用户提供从数据预处理、模型构建、模型训练、模型评估到模型服务的全流程开发支持。腾讯云 TI 平台内置丰富的算法组件，支持多种算法框架，满足多种AI应用场景的需求。  |
+|  [腾讯云智能数智人](https://www.tencentcloud.com/zh/products/ivh)  | undefined  | undefined | 新一代多模态人机交互系统，快捷打造有智能、有形象、可交互的“数智分身”。   |   |
+|  [智能音乐平台](https://www.tencentcloud.com/zh/products/xmusic)  | undefined  | undefined | 智能音乐解决方案，基于腾讯多媒体实验室自研音乐理解技术，帮助用户深入地理解、分析、创造音乐，探索更多音乐场景，挖掘音乐价值。   |   |
 ### 自然语言处理(1)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -225,13 +232,15 @@
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [物联网通信](https://www.tencentcloud.com/zh/products/iothub)  | Internet of Things Hub  | IoT Hub | 帮助开发者快速搭建物联网应用平台   | 腾讯云物联网通信（Internet of Things Hub， IoT Hub）旨在提供一个安全、稳定、高效的连接平台，帮助开发者低成本、快速地实现“设备-设备”、“设备-用户应用”、“设备-云服务”之间可靠、高并发的数据通信。不仅可以实现设备之间的互动、设备的数据上报和配置下发，还可以基于规则引擎和腾讯云产品打通，方便快捷地实现海量设备数据的存储、计算以及智能分析。  |
 
-## 中间件与通信(7)
-### 中间件(3)
+## 中间件与通信(10)
+### 消息队列(5)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
-|  [消息队列 CKafka](https://www.tencentcloud.com/zh/products/CKafka)  | Cloud Kafka  |  | 兼容 Kafka 的高性能可靠的消息系统   | 消息队列 CKafka（Cloud Kafka）是一个分布式、高吞吐量、高可扩展性的消息系统，100%兼容开源 Kafka API（0.9、0.10版本）。CKafka 基于发布/订阅模式，通过消息解耦，使生产者和消费者异步交互，无需彼此等待。CKafka 具有数据压缩、同时支持离线和实时数据处理等优点，适用于日志压缩收集、监控数据聚合等场景。  |
-|  [API 网关](https://www.tencentcloud.com/zh/products/apigateway)  | API Gateway  |  | API 全生命周期托管服务   | API 网关（API Gateway）是 API 托管服务。提供 API 的完整生命周期管理，包括创建、维护、发布、运行、下线等。您可使用 API Gateway 封装自身业务，将您的数据、业务逻辑或功能安全可靠的开放出来，用以实现自身系统集成、以及与合作伙伴的业务连接。  |
-|  [消息队列 TDMQ](https://www.tencentcloud.com/zh/products/tdmq)  | undefined  | undefined | 高可靠，轻量级消息队列   |   |
+|  [消息队列 CKafka 版](https://www.tencentcloud.com/zh/products/CKafka)  | TDMQ for CKafka  |  | 兼容 Kafka 的高性能可靠的消息系统   | 消息队列 CKafka 版（TDMQ for CKafka）是一个分布式、高吞吐量、高可扩展性的消息系统，100%兼容开源 Kafka API 0.9至2.8版本。CKafka 基于发布/订阅模式，通过消息解耦，使生产者和消费者异步交互，无需彼此等待。CKafka 具有高可用、数据压缩、同时支持离线和实时数据处理等优点，适用于日志压缩收集、监控数据聚合、流式数据集成等场景。  |
+|  [消息队列 RocketMQ 版](https://www.tencentcloud.com/zh/products/trocket)  | undefined  | undefined | 兼容 Apache RocketMQ 的高并发高可靠的消息队列   |   |
+|  [消息队列 RabbitMQ 版](https://www.tencentcloud.com/zh/products/trabbit)  | undefined  | undefined | 兼容 RabbitMQ 开源生态的高性能消息队列   |   |
+|  [消息队列 Pulsar 版](https://www.tencentcloud.com/zh/products/tpulsar)  | undefined  | undefined | 云原生 Serverless 化，高性能强一致的消息队列   |   |
+|  [消息队列 CMQ 版](https://www.tencentcloud.com/zh/products/tcmq)  | undefined  | undefined | 原腾讯云CMQ，高性能的消息队列服务   |   |
 ### 通信服务(4)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -239,8 +248,12 @@
 |  [短信](https://www.tencentcloud.com/zh/products/sms)  | Short Message Service  | SMS | 快速稳定、简单易用、触达全球的短信服务   | 腾讯云短信（Short Message Service，SMS）沉淀腾讯十多年短信服务技术和经验，为 QQ、微信等亿级平台和10万+客户提供短信服务。国际/港澳台短信覆盖全球220+国家/地区，稳定可靠。腾讯云短信旨在帮助广大开发者快速灵活接入高质量国际/港澳台短信服务。  |
 |  [腾讯移动推送](https://www.tencentcloud.com/zh/products/tpns)  | Tencent Push Notification Service  |  | 信鸽推送，稳定、快速、高抵达率   | 移动推送（Tencent Push Notification Service） 为您提供稳定、快速高抵达的 APP 推送服务。其接入方便快捷，拥有业内领先的技术实力，稳定可靠的消息推送通道，独有双 Service 联合保活，与腾讯系应用共享通道能力，能有效提升消息抵达率；系统每分钟可容纳1800万推送消息，消息能秒级到达（支撑王者荣耀等腾讯内应用推送工具）；此外，其具备精准用户标签能力，有效助力APP的精细化运营。  |
 |  [邮件推送](https://www.tencentcloud.com/zh/products/ses)  | undefined  | undefined | 安全稳定、简单快速、精准高效的邮件推送服务   |   |
+### 中间件(1)
+|  产品   |  英文名  | 英文简称 | 概述  | 详情 |
+|  ----  | ----  | ----  | ----  |  ----  |
+|  [API 网关](https://www.tencentcloud.com/zh/products/apigateway)  | API Gateway  |  | API 全生命周期托管服务   | API 网关（API Gateway）是 API 托管服务。提供 API 的完整生命周期管理，包括创建、维护、发布、运行、下线等。您可使用 API Gateway 封装自身业务，将您的数据、业务逻辑或功能安全可靠的开放出来，用以实现自身系统集成、以及与合作伙伴的业务连接。  |
 
-## 视频服务(12)
+## 视频服务(13)
 ### 互动视频服务(2)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -250,13 +263,14 @@
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [媒体直播](https://www.tencentcloud.com/zh/products/mdl)  | undefined  | undefined | 稳定、高质量的广播级视频直播服务   | Tencent Cloud StreamLive，致力于为全球用户提供专业、稳定、高质量的直播流媒体处理平台。StreamLive依托腾讯云全球部署的众多可用区的计算资源，结合腾讯自研应用深耕多年的音视频技术平台以及全球领先的音视频 AI 技术，将腾讯云视频直播的核心底层能力开放给用户，不仅为全球开发者提供专业、稳定、高效的直播流转码、转封装、传输等基础服务，同时，提供数字版权保护以及SCTE35广告解决方案等增值等服务能力。  |
-|  [媒体包装](https://www.tencentcloud.com/zh/products/mdp)  | undefined  | undefined | 稳定、安全、高效的媒体包装服务。   | Tencent Cloud StreamPackage，致力于为全球用户提供专业、稳定、安全的视频封装及源站服务。StreamPackage依托腾讯云全球部署的众多可用区的计算资源，结合腾讯自研应用深耕多年的音视频技术降低视频包装分发难度，增加源弹性，允许视频供应商能够大规模安全稳定地分配视频流媒体。目前StreamPackage正在内测中，如需使用请联系我们。  |
+|  [媒体包装](https://www.tencentcloud.com/zh/products/mdp)  | undefined  | undefined | 稳定、安全、高效的媒体包装服务。   | Tencent Cloud StreamPackage，致力于为全球用户提供专业、稳定、安全的视频封装及源站服务。StreamPackage依托腾讯云全球部署的众多可用区的计算资源，结合腾讯自研应用深耕多年的音视频技术降低视频包装分发难度，增加源弹性，允许视频供应商能够大规模安全稳定地分配视频流媒体。  |
 |  [媒体传输](https://www.tencentcloud.com/zh/products/mdc)  | undefined  | undefined | 安全可靠、极速稳定的全球化实时视频传输服务   | Tencent Cloud StreamLink，致力于为全球用户提供专业、稳定、高质量的视频传输服务。StreamLink依托腾讯云全球部署的众多可用区的计算资源，结合腾讯自研应用深耕多年的音视频技术，能够提供稳定安全的实时传输能力。同时还可对传输过程中的视频流进行全方位的质量监控，以便于视频供应商能够快速稳定地传输视频流媒体。  |
-|  [云直播](https://www.tencentcloud.com/zh/products/css)  | Cloud Streaming Services  | CSS | 极速、稳定、专业的云端直播处理服务   | 云直播（Cloud Streaming Services，CSS）依托腾讯多年的音视频技术平台，以及全球海量加速节点和领先的音视频 AI 技术，为开发者提供专业、稳定的直播推流、转码、分发及播放服务，全面满足低延迟、超高画质、大并发访问量的要求。  |
-### 媒体点播(1)
+|  [云直播](https://www.tencentcloud.com/zh/products/css)  | undefined  | undefined | 极速、稳定、专业的云端直播处理服务   | 依托腾讯多年的音视频技术平台，以及全球海量加速节点和领先的音视频 AI 技术，为开发者提供专业、稳定的直播推流、转码、分发及播放服务，全面满足低延迟、超高画质、大并发访问量的要求。  |
+### 媒体点播(2)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [云点播](https://www.tencentcloud.com/zh/products/vod)  | undefined  | undefined | 一站式媒体转码分发平台   |   |
+|  [云点播-混合云版](https://www.tencentcloud.com/zh/products/vodeo)  | VOD on EO  |  | 灵活的媒体解决方案，轻松升级媒体体验，支持上传加速、Just-in-Time媒体处理、加速分发服务。   | 云点播-混合云版（VOD on EO） 专注于媒体相关服务，能够实现对存储在对象存储类产品（如Tencent Cloud COS 等）的媒体数据进行上传加速、媒体处理、即时转码、内容加速分发等一体化能力。  |
 ### 媒体处理服务(1)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -284,7 +298,7 @@
 |  [游戏视频处理](https://www.tencentcloud.com/zh/products/gvp)  | undefined  | undefined | 基于人眼视觉标准的游戏视频处理平台   |   |
 |  [游戏视频分析](https://www.tencentcloud.com/zh/products/gva)  | undefined  | undefined | 根据游戏视频内容智能理解系统，可提取游戏中的精彩片段、封面并生成分类与标签。   |   |
 
-## 行业应用(4)
+## 行业应用(5)
 ### 教育服务(2)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
@@ -295,9 +309,13 @@
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [微瓴物联网类操作系统](https://www.tencentcloud.com/zh/products/weiling)  | undefined  | undefined | 深度适配智慧建筑场景的物联网类操作系统   | 微瓴是深度适配智慧建筑场景的物联网类操作系统，针对于建筑内的硬件、应用、服务等资源，提供物联、管理与数字服务，赋予建筑综合协同的智慧能力，并为建筑管理运营者与建筑业主方提供安全、高效、便利的建筑综合管理运营系统。助力地产行业数字化和智能化转型，提升建筑的运营效率与服务品质，创造全新的服务模式及用户体验。  |
 |  [腾讯即视智慧视觉分析系统](https://www.tencentcloud.com/zh/products/tiv)  | undefined  | undefined | 结合物联网技术及 AI 智慧视觉技术能力，帮助客户精准挖掘海量视频价值   |   |
+### Blockchain Service(1)
+|  产品   |  英文名  | 英文简称 | 概述  | 详情 |
+|  ----  | ----  | ----  | ----  |  ----  |
+|  [Tencent Cloud Blockchain RPC](https://www.tencentcloud.com/zh/products/rpc)  | undefined  | undefined | A high-performance blockchain RPC service   |   |
 
-## 开发者服务(20)
-### 云资源管理(5)
+## 开发者服务(23)
+### 云资源管理(6)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [云 API](https://www.tencentcloud.com/zh/products/api)  | undefined  | undefined | 以接口的形式访问腾讯云的各类资源   | 云 API 是腾讯云开放生态的基石。通过云 API，只需少量的代码即可快速操作云产品；在熟练的情况下，使用云 API 完成一些频繁调用的功能可以极大提高效率；除此之外，通过 API 可以组合功能，实现更高级的功能，易于自动化， 易于远程调用， 兼容性强，对系统要求低。  |
@@ -305,13 +323,14 @@
 |  [资源编排 TIC](https://www.tencentcloud.com/zh/products/tic)  | Tencent Cloud Infrastructure as Code  | TIC | 高效安全的基础架构管理平台   | 资源编排 TIC（Tencent Cloud Infrastructure as Code，TIC）是腾讯云推出的IaC开放平台，提供资源编排、配置管理和合规检查三大功能模块，用以解决用户在云基础设施管理中面临的效率、成本和安全问题。TIC平台兼容业内优秀的开源技术，支持HCL（Terraform）、JSON和YAML格式语法编写，同时提供基于腾讯云最佳实践的公共模板，有效降低用户的学习、使用难度。  |
 |  [云顾问](https://www.tencentcloud.com/zh/products/advisor)  | Tencent Smart Advisor  |  | 开箱即⽤的云资源⻛险评估服务   | 腾讯云顾问（Tencent Smart Advisor）从安全、可靠、服务限制等维度帮助您优化云基础设施，以提升系统安全性以及服务可靠性。结合腾讯云多年服务客户沉淀的最佳实践，一键完成云资源的巡检操作，根据业务实际使用情况，在线提供资源优化建议，高效提升业务连续性。  |
 |  [云资源自动化 for Terraform](https://www.tencentcloud.com/zh/products/tiat)  | Tencent Infrastructure Automation for Terraform  |  | Devops工具，用于安全高效地管理腾讯云资源   | 云资源自动化 for Terraform（Tencent Infrastructure Automation for Terraform）是腾讯云基于全球备受欢迎的基础设施即代码（Infrastructure as Code）工具 Terraform 插件扩展体系下，提供的腾讯云资源部署、实施和管理的自动化能力，将 Terraform 完善成熟的基础设施自动化工具能力和腾讯云的云资源服务能力相互联接，让客户可以方便地实施 DevOps 和多云部署等模式。  |
+|  [控制中心](https://www.tencentcloud.com/zh/products/controlcenter)  | undefined  | undefined | 支持Landing Zone，管理企业云上账号环境。   |   |
 ### 管理与审计(3)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [访问管理](https://www.tencentcloud.com/zh/products/cam)  | Cloud Access Management  | CAM | 便捷、安全的权限分配和子用户管理服务   | 访问管理（Cloud Access Management，CAM）是腾讯云提供给您的用户和权限管理体系，用于帮助客户安全且精细化管理腾讯云产品和资源的访问。您可以在访问管理中创建用户或角色，为其分配单独的安全证书（控制台登录密码、云 API 密钥等）或请求临时安全证书，供其访问腾讯云资源。您可以管理权限，以控制用户和角色具体可以执行哪些操作和访问哪些资源。同时，如果您的企业或组织已有内网账号体系，您不必在腾讯云账户中为企业用户再创建子用户或协作者，身份提供商将为企业用户提供 SSO 单点登录能力，通过 IdP 身份验证的外部用户可直接访问您的腾讯云资源。  |
-|  [云审计](https://www.tencentcloud.com/zh/products/cloudaudit)  | undefined  | undefined | 支持记录和存储腾讯云账号下的操作记录   | 云审计 CloudAudit 是一项支持对您的腾讯云账号进行监管、合规性检查、操作审核和风险审核的服务。借助 CloudAudit，您可以记录日志、持续监控并保留与整个腾讯云基础设施中操作相关的账号活动。CloudAudit 提供腾讯云账号活动的事件历史记录，这些活动包括通过腾讯云管理控制台、API 服务、命令行工具和其他腾讯云服务执行的操作。这一事件历史记录可以简化安全性分析、资源更改跟踪和问题排查工作。  |
+|  [云审计](https://www.tencentcloud.com/zh/products/cloudaudit)  | undefined  | undefined | 支持记录和存储腾讯云账号下的操作记录   | 操作审计 CloudAudit 是一项支持对您的腾讯云账号进行监管、合规性检查、操作审核和风险审核的服务。借助 CloudAudit，您可以记录日志、持续监控并保留与整个腾讯云基础设施中操作相关的账号活动。CloudAudit 提供腾讯云账号活动的事件历史记录，这些活动包括通过腾讯云管理控制台、API 服务、命令行工具和其他腾讯云服务执行的操作。这一事件历史记录可以简化安全性分析、资源更改跟踪和问题排查工作。  |
 |  [集团账号管理](https://www.tencentcloud.com/zh/products/organization)  | Tencent Cloud Organizations  | TCO | 集团账号管理是多账号管理服务   | 集团账号管理（Tencent Cloud Organizations，TCO）是一项账号管理服务，可让您将多腾讯云账号整合到您创建并集中管理的集团账号中。腾讯云集团账号管理包含账单查看和账号管理功能，通过这些功能，您能够更好地满足企业的预算、安全性和合规性需求。作为组织的管理员，您可以在集团账号中邀请现有账号加入组织。企业组织还有助于简化多个账号的计费模式，即您可以通过切换计费身份查看您集团账号内所有账号的账单和费用信息。所有腾讯云客户都可以使用集团账号管理，且无需额外付费。  |
-### 开发者工具(6)
+### 开发者工具(8)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
 |  [CODING 代码托管](https://www.tencentcloud.com/zh/products/coding-cr)  | undefined  | undefined | 为开发者提供安全、高速、便捷的 Git/SVN 代码仓库服务。   |   |
@@ -320,6 +339,8 @@
 |  [CODING 持续集成](https://www.tencentcloud.com/zh/products/coding-ci)  | undefined  | undefined | 云端代码构建服务，支持 Java、Python 等主流语言。   |   |
 |  [CODING 制品库](https://www.tencentcloud.com/zh/products/coding-ar)  | undefined  | undefined | 代码编译后的制品管理服务，支持云端构建和本地构建推送、进行版本控制。   |   |
 |  [CODING 持续部署](https://www.tencentcloud.com/zh/products/coding-cd)  | undefined  | undefined | 持续、可控、自动化地把软件制品发布到服务集群中，助您实践持续部署。   |   |
+|  [腾讯移动开发平台](https://www.tencentcloud.com/zh/products/tmf)  | undefined  | undefined | 一站式移动端开发和运营平台   |   |
+|  [腾讯云小程序平台](https://www.tencentcloud.com/zh/products/tcmpp)  | undefined  | undefined | 一站式开发，将小程序投放到企业自有 APP   |   |
 ### 监控与运维(6)
 |  产品   |  英文名  | 英文简称 | 概述  | 详情 |
 |  ----  | ----  | ----  | ----  |  ----  |
